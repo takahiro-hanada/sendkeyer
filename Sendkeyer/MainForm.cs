@@ -39,6 +39,8 @@ namespace Sendkeyer
             var app = _appsCombo.Text;
             var line = _lineBox.Text;
 
+            _errorProvider.SetError(_appsCombo, null);
+
             try
             {
                 Microsoft.VisualBasic.Interaction.AppActivate(app);
@@ -49,8 +51,6 @@ namespace Sendkeyer
 
                 return;
             }
-
-            _errorProvider.SetError(_appsCombo, null);
 
             SendKeys.Send(line +( _appendNewLineCheck.Checked ? "~" :""));
 
