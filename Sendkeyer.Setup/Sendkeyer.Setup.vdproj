@@ -50,6 +50,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
         "Release"
@@ -74,6 +82,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -160,12 +176,12 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SENDKEYer"
-        "ProductCode" = "8:{6F004D41-9191-45B7-84B2-3FD759CD690D}"
-        "PackageCode" = "8:{1312D1FA-D807-48BE-88A6-EC068CBB12A5}"
+        "ProductCode" = "8:{2B463FA6-579B-409C-BA5A-EBA3845A91D1}"
+        "PackageCode" = "8:{09020390-B070-4ED5-866E-378F2832CD1D}"
         "UpgradeCode" = "8:{477CDC6D-43D2-4ACC-8C79-8B665F605850}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.1"
@@ -696,7 +712,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_13F935E3464C4DFD90C207B2C82A9AEB"
             {
-            "SourcePath" = "8:..\\Sendkeyer\\obj\\Debug\\Sendkeyer.exe"
+            "SourcePath" = "8:..\\Sendkeyer\\obj\\Release\\Sendkeyer.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3C76B002D6C44D0F8F7B5B6720A40C13"
