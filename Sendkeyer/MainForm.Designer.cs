@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this._appsCombo = new System.Windows.Forms.ComboBox();
             this._linesList = new System.Windows.Forms.ListBox();
             this._sendButton = new System.Windows.Forms.Button();
@@ -163,6 +164,7 @@
             this.Controls.Add(this._linesList);
             this.Controls.Add(this._appsCombo);
             this.DataBindings.Add(new System.Windows.Forms.Binding("TopMost", global::Sendkeyer.Properties.Settings.Default, "MainForm_TopMost", true, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = global::Sendkeyer.Properties.Settings.Default.MainForm_Location;
             this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(300, 300);

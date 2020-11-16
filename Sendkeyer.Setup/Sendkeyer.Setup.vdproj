@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_31630E7A6D084FF3B971CA64D60C5253"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_13F935E3464C4DFD90C207B2C82A9AEB"
         "MsmSig" = "8:_UNDEFINED"
@@ -33,7 +39,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\Sendkeyer.msi"
+        "OutputFilename" = "8:Debug\\sendkeyer-1_1_0.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -65,7 +71,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\Sendkeyer.msi"
+        "OutputFilename" = "8:Release\\sendkeyer-1_1_0.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -120,6 +126,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_31630E7A6D084FF3B971CA64D60C5253"
+            {
+            "SourcePath" = "8:..\\Sendkeyer\\App.ico"
+            "TargetName" = "8:App.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_3C76B002D6C44D0F8F7B5B6720A40C13"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -176,15 +202,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SENDKEYer"
-        "ProductCode" = "8:{2B463FA6-579B-409C-BA5A-EBA3845A91D1}"
-        "PackageCode" = "8:{09020390-B070-4ED5-866E-378F2832CD1D}"
+        "ProductCode" = "8:{C06303A0-2C28-4F55-B6E4-6856FAB831A4}"
+        "PackageCode" = "8:{CF32FEF1-89C9-41A6-BBC2-E223F57A3FD9}"
         "UpgradeCode" = "8:{477CDC6D-43D2-4ACC-8C79-8B665F605850}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.1.0"
         "Manufacturer" = "8:SENDKEYer Team"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -308,7 +334,7 @@
             "Target" = "8:_13F935E3464C4DFD90C207B2C82A9AEB"
             "Folder" = "8:_ED01B2D7421343EB93CE6DF03E01A0AA"
             "WorkingFolder" = "8:_3C76B002D6C44D0F8F7B5B6720A40C13"
-            "Icon" = "8:"
+            "Icon" = "8:_31630E7A6D084FF3B971CA64D60C5253"
             "Feature" = "8:"
             }
         }
